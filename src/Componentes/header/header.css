@@ -1,0 +1,23 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+.text{
+        color: red;
+
+}
+
+.text:hover{
+    color: white;
+    text-shadow: 5px 5px 5px #FF0000
+}
+
+@media (max-width: 1900px){
+    .text{
+        font-size: large;
+    }
+}
+

@@ -1,0 +1,12 @@
+.teste{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+@media (max-width: 1900px){
+    .teste{
+        display:block;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,86 @@
+.bitcoin{  
+  margin: 10px;
+  border: 1px solid black;
+  background-color: rgb(0, 0, 0);
+  width: 700px;
+}
+
+.tooltip {
+  position: relative;
+  display: flex;
+  color: rgb(255, 253, 253);
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  margin-top: 1px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  position: absolute;
+  top: 100%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (max-width: 1900px){
+  .bitcoin{
+    width: 500px;
+    margin-left: 40%;
+  }
+  .texto{
+    color: black;
+    display: none;
+  }
+
+  .tooltip {
+    display: none;
+  }
+
+  .tooltip .tooltiptext {
+    color: black;
+    display: none;
+  }
+  }
+
+@media (max-width: 1280px){
+    .bitcoin{
+      width: 500px;
+      margin-left: 30%;
+    }
+  
+    .tooltip {
+      display: none;
+      color: black;
+    }
+  
+    .tooltip .tooltiptext {
+      color: black;
+      display: none;
+    }
+  }
+  
+  @media (max-width: 800px){
+    .bitcoin{
+      width: 500px;
+      margin-left: 20%;
+    }
+  }
+
+  @media (max-width: 600px){
+    .bitcoin{
+      width: 350px;
+      margin-left: 10%;
+ 
+    }
+  }
+  
+  @media (min-width:200px )and (max-width:400px){
+    .bitcoin{
+      width: 350px;
+      margin-left: 3%;
+    }
+  }
+
